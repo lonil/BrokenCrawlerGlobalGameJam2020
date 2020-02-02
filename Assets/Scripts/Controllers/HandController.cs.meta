@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: d43390e19542a294ea5b9501a463b7d3
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - QuadSprite: {fileID: 21300000, guid: 41fbdbe024082384eafff7d459a07199, type: 3}
+  - RectangleVSprite: {fileID: 21300000, guid: 002f743f2843425498e98a082dc47fbf, type: 3}
+  - RectangleHSprite: {fileID: 21300000, guid: bf6ea43e02b21c045bbc2d93e9b33238, type: 3}
+  - LNormalSprite: {fileID: 21300000, guid: f2ba362ab560ce34185e3d96a9f9c4c7, type: 3}
+  - LMirroredSprite: {fileID: 21300000, guid: 10fe4b3cf21725042ba413237e580f30, type: 3}
+  - UpSideDownLSprite: {fileID: 21300000, guid: a8ee15923d0e55645b46f3476f215a52,
+      type: 3}
+  - UpSideDownLMirroredSprite: {fileID: 21300000, guid: 1e83e5372bddd144682350b99fc2a92a,
+      type: 3}
+  - BigSquadSprite: {fileID: 21300000, guid: 1c51350371248a444bbb6bdc3d87f1ea, type: 3}
+  - menuController: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
