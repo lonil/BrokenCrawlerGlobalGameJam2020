@@ -10,9 +10,8 @@ public class PlayerCharacter : MonoBehaviour
     int horizontal;
     public Sprite playerSprite;
     WorldController world;
-    Map map = GameObject.FindGameObjectWithTag("Map").GetComponent<Map>();
     Tile check;
-    MenuController menuController = GameObject.FindGameObjectWithTag("MenuController").GetComponent<MenuController>();
+    [SerializeField]MenuController menuController;
     public int X { get => x; set => x = value; }
     public int Y { get => y; set => y = value; }
     GameObject player;
@@ -24,7 +23,8 @@ public class PlayerCharacter : MonoBehaviour
         world = controllerReference;
         player = new GameObject();
         player.AddComponent<SpriteRenderer>().sprite = playerSprite;
-        player.tag = "player";
+        player.GetComponent<SpriteRenderer>().sortingLayerName = "player";
+        player.tag = "Player";
         player.transform.position = new Vector3 (0f,3f,player.transform.position.z);
     }
 
